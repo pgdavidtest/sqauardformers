@@ -16,6 +16,20 @@
       "amount": 10000000000
     }
   ],
+  "Zero": [
+    {
+      "cryptoName": "Ethereum",
+      "zeroValue": 0
+    },
+    {
+      "cryptoName": "Bitcoin",
+      "zeroValue": 0
+    },
+    {
+      "cryptoName": "Solana",
+      "zeroValue": 0
+    }
+  ],
 
   "Negative": [
     {

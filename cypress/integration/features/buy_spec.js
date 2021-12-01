@@ -1,7 +1,7 @@
 ///<reference types="cypress" />
 //import { forEach } from "lodash";
 //import BuyPage from ".../cypress/pageObjects/buyPage"
-import BuyPage from "../../pageObjects/buyPage"
+import BuyPage from "../../pageObjects/buyPage";
 
 describe("Buy Feature", function () {
   let globalVariable;
@@ -38,10 +38,10 @@ describe("Buy Feature", function () {
 
   it("Validates zero amount", function () {
     const myBuyPage = new BuyPage();
-    globalVariable.List.forEach(function (value) {
+    globalVariable.Zero.forEach(function (value) {
       myBuyPage.openCryptoList();
       myBuyPage.selectCrypto(value.cryptoName);
-      myBuyPage.enterAmount(0);
+      myBuyPage.enterAmount(value.zeroValue);
       myBuyPage.elements.buyButton().should("be.disabled");
     });
   });
