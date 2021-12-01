@@ -1,0 +1,15 @@
+{
+    "baseUrl": "https://trader-beta.vercel.app/",
+        "supportFile": "cypress/support/index.js",
+        "modifyObstructiveCode": true,
+        "experimentalSessionSupport": true,
+        "experimentalStudio": true,
+        "include": [
+          "./node_modules/cypress",
+          "cypress/**/*.js"
+        ],
+        "projectId": "",
+        "experimentalDecorators": true,
+        "redirectionLimit": 100,
+        "chromeWebSecurity": false
+}

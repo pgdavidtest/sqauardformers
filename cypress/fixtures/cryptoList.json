@@ -1,0 +1,34 @@
+{
+  "List": [
+    {
+      "cryptoName": "Ethereum",
+      "abbr": "ETH",
+      "amount": 10000000
+    },
+    {
+      "cryptoName": "Bitcoin",
+      "abbr": "BTC",
+      "amount": 100000000
+    },
+    {
+      "cryptoName": "Solana",
+      "abbr": "SOL",
+      "amount": 10000000000
+    }
+  ],
+
+  "Negative": [
+    {
+      "cryptoName": "Ethereum",
+      "invalidValues": "-"
+    },
+    {
+      "cryptoName": "Bitcoin",
+      "invalidValues": "!"
+    },
+    {
+      "cryptoName": "Solana",
+      "invalidValues": "rgy"
+    }
+  ]
+}
